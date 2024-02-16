@@ -1,0 +1,8 @@
+src
+test
+node_modules
+# Editor files
+.vscode
+
+# Linters
+.prettierrc.json

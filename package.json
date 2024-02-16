@@ -4,7 +4,7 @@
   "description": "Create npm packages",
   "main": "src/index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JeevanOM/learn_npm_packages/issues"
   },
-  "homepage": "https://github.com/JeevanOM/learn_npm_packages#readme"
+  "homepage": "https://github.com/JeevanOM/learn_npm_packages#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
